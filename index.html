@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Task</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <!-- GSAP and ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+    <!-- js file -->
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+
+                <div class="head-video">
+                    <video class="video-background" autoplay muted loop>
+                        <source src="./assets/-5ae6-4adb-81b4-c2d194c6ef4c.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <!-- Overlay Gradient -->
+                    <div class="gradient-overlay"></div>
+                </div>
+
+
+                <!-- logo -->
+                <div class="logo-container">
+                    <img src="./assets/logo.png" alt="Logo" class="logo">
+                    <h3>LOREM, IPSUM</h3>
+                </div>
+
+                <!-- content -->
+                <div class="content flex items-center  flex-col">
+                    <p>A LOREM IPSUM </p>
+                    <p> <span class="content-span">in </span> LOREM IPSUM </p>
+                </div>
+
+                <!-- info-and-buttons -->
+                <div class="info-buttons">
+
+                    <!-- info -->
+                    <div class="info  flex items-center flex-col">
+                        <img src="./assets/girl-game.jpeg" class="girl-img" alt="girl game image">
+                        <div class="info-data">
+                            <p class="data-one">lorem by</p>
+                            <p class="data-2">Lorem & Ipsum lorem</p>
+                        </div>
+                    </div>
+
+                    <!-- buttons -->
+                    <div class="buttons btn flex items-center gap-[16px]">
+                        <div class="button1">
+                            <img src="./assets/today.png" alt="Book Now">
+                            <p>LOREM</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="button2">
+                            <img src="./assets/Phone.png" alt="Contact">
+                            <p>IPSUM</p>
+                        </div>
+                    </div>
+
+                    <!-- temp-data -->
+                    <div class="temp-data flex flex-row items-center absolute">
+                        <p class="flex-none flex-grow-0 order-0">27</p>
+                        <img src="./assets/weather_snowy.png" class="order-1" alt="Weather Snowy">
+                        <p class="flex-none flex-grow-0 order-2">lorem</p>
+                    </div>
+                    <div class="vertical-line">
+                        <img src="./assets/Vector.png" alt="Vector line">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ------------first section----------------------  -->
+
+    <section class="flex items-center justify-center" id="first-section">
+
+        <div class="first-section">
+            <!-- line -->
+            <div class="vertical-line2">
+                <img src="./assets/vector1.png" alt="Vector line">
+            </div>
+
+            <div class="first-section-header flex items-center">
+                <div class="icon">
+                    <img src="./assets/icon.png" class="menu" alt="menu">
+                </div>
+                <div class="logo">
+                    <img src="./assets/logowhite.png" alt="Logo" class="logo">
+                </div>
+            </div>
+
+
+            <div class="first-section-content flex items-center flex-col">
+                <p class="first-section-p">LOREM INTO IPSUM</p>
+                <p>A LOREM in the IPSUM</p>
+            </div>
+
+            <div class="first-section-img flex items-center ">
+                <img src="./assets/fs-img.png" class="girl-image" alt="Girl Image">
+            </div>
+
+            <!-- buttons -->
+            <div class="buttons btn first-btn flex items-center gap-[16px]">
+                <div class="button1">
+                    <img src="./assets/today.png" alt="Book Now">
+                    <p>LOREM</p>
+                </div>
+                <div class="line"></div>
+                <div class="button2">
+                    <img src="./assets/Phone.png" alt="Contact">
+                    <p>IPSUM</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ---------------- third section-------------------- -->
+    <section class="flex items-center justify-center" id="third-section">
+        <div class="container">
+            <div class="third-section">
+
+                <div class="first-section-header head flex items-center">
+                    <div class="icon">
+                        <img src="./assets/icon.png" class="menu" alt="menu">
+                    </div>
+                    <div class="logo">
+                        <img src="./assets/logowhite.png" alt="Logo" class="logo">
+                    </div>
+                </div>
+
+                <div class="third-section-content flex items-center flex-col">
+                    <div class="third-heading">
+                        <h4>LOREM OF </h4>
+                        <h2>LOREM of IPSUM</h2>
+                    </div>
+                    <div class="third-content flex flex-col gap-5">
+                        <p>
+                            A Lorem for the ipsum, A lorem for the ipsum, A lorem for the ipsum. A Lorem for the ipsum,
+                            A lorem for the ipsum, A lorem for the ipsum.
+                        </p>
+                        <p>
+                            A lorem for the ipsum, A lorem for the ipsum.A Lorem for the ipsum, A lorem for the ipsum, A
+                            lorem for the ipsum.A Lorem for the ipsum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="third-section-img flex items-center ">
+                    <img src="./assets/third-img.png" class="girl-image" alt="Girl Image">
+                </div>
+                <div class="third-section-btn flex items-center ">
+                    <img src="./assets/buttons.png" class="Btn-image" alt="Button Image">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+</body>
+
+</html>

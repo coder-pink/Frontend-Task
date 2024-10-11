@@ -1,0 +1,433 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+/* buttons */
+
+.btn {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #FFF;
+}
+
+
+.buttons {
+    width: 214.87px;
+    height: 47.26px;
+    position: absolute;
+    top: 609px;
+    left: 91.5px;
+    padding: 8px 16px;
+    border-radius: 54.36px;
+    border: 0.5px solid transparent;
+    backdrop-filter: blur(59.79px);
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 10;
+}
+
+.first-btn {
+    background: rgba(255, 255, 255, 0.1);
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.container {
+    background-color: #212D2D;
+    width: 414px;
+    height: 736px;
+}
+
+.wrapper {
+    position: relative;
+    width: 414px;
+    height: 736px;
+    overflow: hidden;
+}
+
+
+.head-video {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* overflow: hidden; */
+
+}
+
+
+.video-background {
+    position: absolute;
+    width: 416px;
+    height: 736px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(33, 44, 46, 0) 0%, #212C2E 100%);
+    pointer-events: none;
+    z-index: 9;
+}
+
+
+
+.logo-container {
+    position: absolute;
+    width: 151px;
+    height: 33.45px;
+    left: 131px;
+    top: 34px;
+
+
+}
+
+
+.logo-container h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8.24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 13px;
+    color: #212D2D;
+}
+
+/* header content */
+.content {
+    position: absolute;
+    width: 312px;
+    height: 72px;
+    left: 61px;
+    top: 313px;
+    color: #fff;
+    z-index: 10;
+}
+
+
+.content p {
+    font-family: 'Athelas', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35.88px;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.content p:last-of-type {
+    margin-left: 70px;
+}
+
+.content .content-span {
+    font-style: italic;
+}
+
+
+
+/* info  */
+.info {
+    position: absolute;
+    left: 146px;
+    top: 496px;
+    z-index: 10;
+}
+
+.girl-img {
+    width: 40.42px;
+    height: 40.42px;
+    border-radius: 50%;
+}
+
+
+.info-data {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 11.32px;
+    line-height: 17.77px;
+    letter-spacing: 0.01em;
+    color: #F3F3F3;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 10;
+}
+
+.info-data .data-one {
+    font-weight: 400;
+}
+
+.info-data .data-2 {
+    font-weight: 700;
+}
+
+
+
+.line {
+    width: 1px;
+    height: 31.26px;
+    border: 0.68px solid #9E9E9E;
+    opacity: 1;
+}
+
+
+.button1,
+.button2 {
+    display: flex;
+    align-items: center;
+    gap: 5.44px;
+    opacity: 1;
+    width: 77.4px;
+}
+
+.button1 img,
+.button2 img {
+    width: 22px;
+    height: 22px;
+}
+
+.button1 p,
+.button2 p {
+    font-size: 14px;
+}
+
+
+/* temp-data */
+.temp-data {
+    width: 65px;
+    height: 16px;
+    top: 670px;
+    left: 180.5px;
+    color: #F3F3F3;
+    gap: 6px;
+    z-index: 10;
+}
+
+
+
+
+.vertical-line img {
+    position: absolute;
+    left: 206px;
+    top: 703px;
+    bottom: -31.25%;
+    opacity: 0.5;
+    width: 6px;
+    height: 263px;
+    z-index: 10
+}
+
+
+
+
+/* ############### first section ######### */
+
+
+
+
+.first-section {
+    background-color: #212D2D;
+    width: 414px;
+    height: 785px;
+    position: relative;
+}
+
+
+.first-section-header {
+    gap: 80px;
+    padding: 10px;
+    margin-left: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: 35px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+
+.first-section-header .icon {
+    width: 24px;
+    height: 24px;
+    left: 37px;
+    top: 41px;
+    margin-top: 6px;
+}
+
+.first-section-header .logo {
+    width: 151px;
+    height: 33.45px;
+    left: 132px;
+    top: 36px;
+
+
+}
+
+.vertical-line2 {
+    position: relative;
+    z-index: 0;
+    top: 0
+}
+
+.vertical-line2 img {
+    position: absolute;
+    left: calc(50% - 6px/2 + 2px);
+    width: 6px;
+}
+
+
+.first-section-content {
+    position: absolute;
+    width: 388px;
+    height: 72px;
+    left: 13px;
+    top: 268px;
+}
+
+.first-section-content p {
+    font-family: 'Athelas';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.first-section-img {
+    position: relative;
+    top: 363px;
+    left: 22px;
+}
+
+.first-section-img img {
+    height: 320px;
+    width: 349px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 54px 2px rgba(255, 255, 255, 0.05);
+    background-size: cover;
+    display: block;
+}
+
+
+
+/* third section */
+
+.third-section {
+    position: relative;
+    background-color: #212D2D;
+    width: 414px;
+    height: 780px;
+    overflow: visible;
+    /* z-index: 0; */
+}
+
+.third-section-content {
+    position: absolute;
+    width: 361px;
+    height: 237px;
+    top: 129.5px;
+    left: 27px;
+    padding: 15px 18px;
+    gap: 12px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+}
+
+.third-content {
+    width: 329px;
+    height: 140px;
+    top: 82px;
+    left: 16px;
+}
+
+.third-section-content .third-heading h4 {
+    width: 325px;
+    height: 17px;
+    font-family: 'Athelas';
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+
+}
+
+.third-section-content .third-heading h2 {
+    width: 325px;
+    height: 30px;
+    font-family: 'Athelas';
+    font-size: 22px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.third-section-content .third-content {
+    width: 329px;
+    height: 140px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+}
+
+.third-section-content .third-content p {
+    font-weight: 100;
+}
+
+
+.third-section-img {
+    position: relative;
+    left: 83px;
+    top: 447px;
+    margin-bottom: 140px;
+}
+
+.third-section-img img {
+    width: 248px;
+    height: 280px;
+    border-radius: 16px;
+    background-size: cover;
+    display: block;
+}
+
+.third-section-btn img {
+    position: absolute;
+    top: 671px;
+    left: 304px
+}
